@@ -33,6 +33,7 @@ public class ArrayModifier {
                     break;
             }
         }
+        sc.close();
         String[] value = new String[array.length];
 
         for (int i = 0; i < value.length; i++) {
